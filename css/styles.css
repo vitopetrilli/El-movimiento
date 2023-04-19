@@ -1,0 +1,75 @@
+h1 { 
+    color:violet;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:violet;
+}
+
+footer strong{
+    color:black;
+}
+
+.parrafo-inicio{
+    list-style-type: none;
+    font-size: 20 px;
+    text-decoration: none;
+    letter-spacing: 1 px;
+    height:30px ;
+}
+
+#parrafo-inicio2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#footer{
+    background-color: red;
+}
+
+.header{
+    background-color: cadetblue;
+}
+
+@font-face {
+    font-family:lato;
+    src: url(../fonts/lato-Black.ttf);
+}
+
+.caja{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 20px;
+    padding: 20px;
+    margin: 10px;
+    grid-row: span;
+}
+
+nav{
+    display: flex;
+    justify: content ;10px;
+    gap:20px;
+    align-items: center;
+}
+
+@media (max-width 576px){
+    .caja {
+        background-color: blue;
+    }
+}
+
+.caja--position{
+    font-size: 2rem;
+    background-color: aqua;
+    position: static;
+}
+
+{}

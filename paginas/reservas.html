@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Reservas</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>El Movimiento</h1>
+        <a class="foto-header" href="../index.html"><img src="../img/movimiento-logo.jpg" alt="Logo" width="300"></a>
+        <nav>
+            <a href="../paginas/isla.html">Isla</a>
+            <a href="../paginas/marina.html">Marina</a>
+            <a href="../paginas/actividades.html">Actividades</a>
+            <a href="../paginas/donde-estamos.html">Donde estamos</a>
+            <a href="../paginas/reservas.html">Reservas</a>
+            <a href="#footer">Contacto</a>
+            <a href="../index.html">Inicio</a>
+        </nav>
+            <div>
+                <input id="buscar" type="text" value="Buscar">
+            </div>
+        </form>
+        <hr>
+    </header>
+
+    <main>
+        <form action="">
+
+            <div>
+                <label for="duracion-clase">Duracion de la clase</label>
+                <select name="duracion-clase" id="duracion-clase">
+                    <option value="Nada">Duracion de la clase</option>
+                    <option value="30">30 minutos</option>
+                    <option value="60">1 hora</option>
+                    <option value="90">1:30 minutos</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="fecha">Fecha</label>
+                <input id="fecha" type="date">
+            </div>
+
+            <div>
+                <span>Selecciona Horario</span>
+
+                <label for="930">9:30</label>
+                <input id="930" type="radio" name="horario" value="9:30">
+
+                <label for="1000">10:00</label>
+                <input id="1000" type="radio" name="horario" value="10:00">
+
+                <label for="1030">10:30</label>
+                <input id="1030" type="radio" name="horario" value="10:30">
+            </div>
+
+            <div>
+                <label for="tipo-de-clase">Tipo de clase</label>
+                <select name="tipo-de-clase" id="tipo-de-clase">
+                    <option value="Nada">Tipo de clase</option>
+                    <option value="Kayak">Kayak</option>
+                    <option value="Pesca">Pesca</option>
+                    <option value="stand up">stand up</option>
+
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" value="Confirmar reserva">
+            </div>
+
+        </form>
+
+        <section class="contenedor">
+            <div class="caja">1</div>
+            <div class="caja caja--position">caja posicionada</div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <hr>
+        <strong>islacholidelta@hotmail.com</strong> <strong>54 9 11 6782-8500</strong>
+        <strong>isla choli: rio sarmiento 211, delta tigre- Marina puerto encantado, sarmiento 2640</strong>
+    </footer>
+
+</body>
+
+</html>
